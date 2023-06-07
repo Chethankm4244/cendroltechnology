@@ -11,9 +11,8 @@ const Homepage = () => {
     prefix = null;
   }
   const colorchange = () => {
-    setColor(
-      color === "rgb(83, 248, 177" ? "rgb(245, 206, 51)" : "rgb(83, 248, 177"
-    );
+    const color = "#" + Math.floor(Math.random() * 6177722).toString(16);
+    setColor(color);
   };
 
   return (
