@@ -1,0 +1,44 @@
+.container {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(213, 215, 216);
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(245, 206, 51);
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
+.btn {
+  background-color: rgb(83, 248, 177);
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid 2px black;
+  position: relative;
+  left: 73px;
+  top: 20px;
+  cursor: pointer;
+}
+.btn1 {
+  font-size: 12px;
+  text-decoration: underline;
+  position: relative;
+  left: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

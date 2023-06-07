@@ -1,0 +1,16 @@
+.increase {
+  text-align: center;
+  margin-top: 50px;
+}
+.increase p {
+  font-size: 50px;
+  font-weight: bold;
+}
+.increase button {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: aqua;
+  cursor: pointer;
+  border: solid 2px black;
+}
